@@ -1,0 +1,370 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background: white;
+}
+/* navigation */
+.nav-items {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  gap: 130px;
+}
+.nav-search {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+.input-search {
+  display: flex;
+  align-items: center;
+}
+.input-form {
+  display: flex;
+}
+.input-form input {
+  border: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 700px;
+  padding: 15px 20px;
+  border-radius: 30px;
+  font-size: 15px;
+  color: rgb(201, 196, 196);
+}
+.icons {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  left: -26%;
+  position: relative;
+  top: 3px;
+  z-index: 1;
+}
+.apps {
+  display: flex;
+  gap: 30px;
+}
+.apps .profile {
+  border-radius: 30px;
+}
+/* tooltip */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  font-size: 12px;
+  width: 35px;
+  background-color: rgb(77, 76, 76);
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 93%;
+  margin-left: -30px;
+  font-weight: 600;
+}
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+/* tooltip1 */
+.tooltip1 {
+  position: relative;
+  display: inline-block;
+}
+.tooltip1 .tooltiptext {
+  visibility: hidden;
+  font-size: 12px;
+  width: 90px;
+  background-color: rgb(77, 76, 76);
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 75%;
+  margin-left: -52px;
+  font-weight: 600;
+}
+.tooltip1 .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+.tooltip1:hover .tooltiptext {
+  visibility: visible;
+}
+/* tooltip2 */
+.tooltip2 {
+  position: relative;
+  display: inline-block;
+}
+.tooltip2 .tooltiptext {
+  visibility: hidden;
+  font-size: 12px;
+  width: 97px;
+  background-color: rgb(77, 76, 76);
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 80%;
+  margin-left: -55px;
+  font-weight: 600;
+}
+.tooltip2 .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+.tooltip2:hover .tooltiptext {
+  visibility: visible;
+}
+/* tooltip3 */
+.tooltip3 {
+  position: relative;
+  display: inline-block;
+}
+.tooltip3 .tooltiptext {
+  visibility: hidden;
+  font-size: 12px;
+  width: 50px;
+  background-color: rgb(77, 76, 76);
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 80%;
+  margin-left: -30px;
+  font-weight: 600;
+}
+.tooltip3 .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+.tooltip3:hover .tooltiptext {
+  visibility: visible;
+}
+/* tooltip4 */
+.tooltip4 {
+  position: relative;
+  display: inline-block;
+}
+.tooltip4 .tooltiptext {
+  visibility: hidden;
+  width: 50px;
+  font-size: 12px;
+  background-color: rgb(77, 76, 76);
+  color: #fff;
+  text-align: center;
+  border-radius: 3px;
+  padding: 3px 0;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -25px;
+  font-weight: 600;
+}
+.tooltip4:hover {
+  background: rgb(242, 241, 241);
+  border-radius: 30px;
+  /* padding: 4px; */
+}
+.tooltip4:hover .tooltiptext {
+  visibility: visible;
+}
+
+/* tooltip5 */
+.tooltip5 {
+  position: relative;
+  display: inline-block;
+}
+.tooltip5 .tooltiptext {
+  visibility: hidden;
+  width: 75px;
+  font-size: 12px;
+  background-color: rgb(77, 76, 76);
+  color: #fff;
+  text-align: center;
+  border-radius: 3px;
+  padding: 3px 0;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -35px;
+  font-weight: 600;
+}
+.tooltip5:hover .tooltiptext {
+  visibility: visible;
+}
+.tooltip5:hover {
+  background: rgb(242, 241, 241);
+  border-radius: 30px;
+  /* padding: 4px; */
+}
+/* tooltip6 */
+.tooltip6 {
+  position: relative;
+  display: inline-block;
+}
+.tooltip6 .tooltiptext {
+  visibility: hidden;
+  width: 155px;
+  font-size: 12px;
+  background-color: rgb(77, 76, 76);
+  color: #fff;
+  text-align: left;
+  border-radius: 3px;
+  padding: 3px 8px;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 0px;
+  margin-left: -120px;
+  font-weight: 600;
+}
+.tooltip6:hover .tooltiptext {
+  visibility: visible;
+}
+.tooltip6 .tooltiptext p {
+  color: gray;
+  text-align: left;
+}
+.tooltip6:hover {
+  background: rgb(242, 241, 241);
+  border-radius: 30px;
+}
+
+/* nav-list section  */
+.list-itemnav {
+  width: 76%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-itemnav li {
+  list-style-type: none;
+  border: 1px solid rgb(200, 195, 195);
+  border-radius: 30px;
+  padding: 7px 10px;
+  color: rgb(67, 65, 65);
+}
+.list-itemnav li:hover {
+  background: rgb(234, 236, 237);
+}
+.list-itemnav a {
+  text-decoration: none;
+}
+.list-itemnav .listitems img {
+  margin-right: 5px;
+}
+.listitems {
+  display: flex;
+  gap: 8px;
+}
+.tools li {
+  border: none;
+  margin-right: -70px;
+}
+.tools li:hover {
+  background: rgb(234, 236, 237);
+  border-radius: 7px;
+  text-align: center;
+}
+hr {
+  border-color: rgba(252, 241, 241, 0.366);
+  margin-top: 20px;
+}
+/* .body-container {
+  width: 80%;
+} */
+.body-container .para1 {
+  color: gray;
+  margin-left: 10em;
+  margin-top: 10px;
+  font-weight: 400;
+}
+.about-messi {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-left: 8em;
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 20px;
+}
+.about-messi .about {
+  margin: 2px;
+}
+.about-messi li {
+  list-style-type: none;
+  background: rgb(204, 201, 201);
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+.about-messi li:hover {
+  background: rgb(156, 153, 153);
+}
+.about-messi .active {
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+.about-messi .active:hover {
+  background: rgb(204, 201, 201);;
+}
+.about-messi ul {
+  display: flex;
+  gap: 10px;
+}
+.about-messi a {
+  text-decoration: none;
+  color: rgb(42, 42, 42);
+}
+.input-form img {
+}
