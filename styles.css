@@ -15,7 +15,8 @@ body {
   display: flex;
   align-items: center;
   padding: 30px;
-  gap: 130px;
+  justify-content: space-between;
+  /* gap: 200px; */
 }
 .nav-search {
   display: flex;
@@ -320,12 +321,15 @@ hr {
   border-color: rgba(252, 241, 241, 0.366);
   margin-top: 20px;
 }
-/* .body-container {
+
+/* body section */
+
+main {
   width: 80%;
-} */
+  margin: auto;
+}
 .body-container .para1 {
   color: gray;
-  margin-left: 10em;
   margin-top: 10px;
   font-weight: 400;
 }
@@ -333,7 +337,6 @@ hr {
   display: flex;
   align-items: center;
   gap: 50px;
-  margin-left: 8em;
   margin-top: 30px;
   font-weight: 400;
   font-size: 20px;
@@ -356,7 +359,7 @@ hr {
   padding: 10px 20px;
 }
 .about-messi .active:hover {
-  background: rgb(204, 201, 201);;
+  background: rgb(204, 201, 201);
 }
 .about-messi ul {
   display: flex;
@@ -366,5 +369,524 @@ hr {
   text-decoration: none;
   color: rgb(42, 42, 42);
 }
-.input-form img {
+/* .input-form img {
+} */
+
+/* wikipedia section */
+.wiki-section {
+  margin-top: 50px;
+}
+.wiki-div {
+  line-height: 1.5;
+}
+.wiki-div a {
+  text-decoration: none;
+}
+.wiki-div a:hover {
+  text-decoration: underline;
+}
+.wiki-div p {
+  color: gray;
+  width: 670px;
+  font-weight: 500;
+}
+.wiki-divv {
+  display: flex;
+  gap: 250px;
+  line-height: 1.7;
+}
+.wiki-divv .early-link {
+  color: blueviolet;
+}
+.wiki-divv a {
+  text-decoration: none;
+  font-weight: 500;
+}
+.wiki-divv p {
+  color: gray;
+}
+.wiki-divv span {
+  color: blueviolet;
+}
+.wiki-divv a:hover {
+  text-decoration: underline;
+}
+.mirror-div {
+  margin-top: 30px;
+  line-height: 1.5;
+  width: 750px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.mirror-div a {
+  text-decoration: none;
+  /* font-weight: 500; */
+  color: blueviolet;
+}
+.mirror-div p {
+  color: gray;
+}
+.mirror-div a:hover {
+  text-decoration: underline;
+}
+
+/* top stories section */
+.top-stories-container {
+  display: flex;
+  gap: 20px;
+  /* justify-content: space-between; */
+  margin-top: 5em;
+}
+.contain-flex {
+  /* display: flex; */
+}
+.div-one {
+  display: flex;
+  gap: 20px;
+}
+.also-div {
+  display: flex;
+  gap: 20px;
+  /* align-items: center; */
+}
+.argentina {
+  display: flex;
+  gap: 50px;
+  /* align-items: center; */
+}
+.profile-media {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  /* text-align: center; */
+}
+.profile-div {
+  display: flex;
+  /* gap: 10px; */
+  /* align-items: center; */
+  text-align: center;
+}
+.givtime-div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+*/
+/* video section */
+.video-section {
+  margin-top: 50px;
+}
+.video-section hr {
+  width: 60%;
+  margin-bottom: 10px;
+}
+.video-section h4 {
+  margin-bottom: 10px;
+}
+.video-section a {
+  text-decoration: none;
+}
+.video-section a:hover {
+  text-decoration: underline;
+}
+.viewall-btn {
+  display: flex;
+}
+.viewall-btn hr {
+  width: 20%;
+}
+.viewall-btn button {
+  padding: 15px 90px;
+  background: silver;
+  border-radius: 30px;
+  border: none;
+}
+.signed-video {
+  display: flex;
+  gap: 20px;
+}
+.video-section video {
+  border-radius: 10px;
+}
+.feeling-video {
+  display: flex;
+  gap: 20px;
+}
+.masterclass-video {
+  display: flex;
+  gap: 20px;
+}
+
+/* questions sections */
+.questions h1 {
+  /* font-size: 2.5rem; */
+  /* line-height: 1.5; */
+  /* margin-bottom: 2.5rem; */
+}
+details {
+  color: rgb(89, 85, 85);
+  font-weight: 500;
+  cursor: pointer;
+  /* padding: 0.8em 2.2em 0.8em 1.2em; */
+  width: 470px;
+  line-height: 1.7;
+}
+
+.frequent-questions hr {
+  height: 1px;
+  width: 40%;
+  background: gray;
+  border: none;
+}
+summary {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+details strong {
+  color: black;
+}
+details .sportp {
+  color: black;
+}
+details .searchfor {
+  color: black;
+  margin-top: 10px;
+}
+details a {
+  text-decoration: none;
+}
+details a:hover {
+  text-decoration: underline;
+}
+.dpara {
+  margin-top: 20px;
+}
+.feedback-div {
+  width: 89%;
+  display: flex;
+  gap: 10px;
+}
+.feedback-div p {
+  color: gray;
+  margin-top: 6px;
+}
+
+/* website section */
+.website-section {
+  margin-top: 5em;
+}
+.forbes-div {
+  line-height: 1.5;
+  width: 750px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.forbes-div a {
+  text-decoration: none;
+  font-weight: 500;
+  /* color: blueviolet; */
+}
+.forbes-div p {
+  color: gray;
+}
+.forbes-div a:hover {
+  text-decoration: underline gray;
+}
+.transfermarkt-div {
+  margin-top: 40px;
+  line-height: 1.5;
+  width: 750px;
+}
+.transfermarkt-div a {
+  text-decoration: none;
+  font-weight: 500;
+  /* color: blueviolet; */
+}
+.transfermarkt-div p {
+  color: gray;
+}
+.transfermarkt-div a:hover {
+  text-decoration: underline gray;
+}
+
+.fcbarcelona-div {
+  margin-top: 40px;
+  line-height: 1.5;
+  width: 750px;
+}
+.fcbarcelona-div a {
+  text-decoration: none;
+  font-weight: 500;
+  /* color: blueviolet; */
+}
+.fcbarcelona-div p {
+  color: gray;
+}
+.fcbarcelona-div a:hover {
+  text-decoration: underline gray;
+}
+
+.skysports-div {
+  margin-top: 40px;
+  line-height: 1.5;
+  width: 750px;
+}
+.skysports-div a {
+  text-decoration: none;
+  font-weight: 500;
+  /* color: blueviolet; */
+}
+.skysports-div p {
+  color: gray;
+}
+.skysports-div a:hover {
+  text-decoration: underline gray;
+}
+
+.espn-div {
+  margin-top: 40px;
+  line-height: 1.5;
+  width: 750px;
+}
+.espn-div a {
+  text-decoration: none;
+  font-weight: 500;
+  /* color: blueviolet; */
+}
+.espn-div p {
+  color: gray;
+}
+.espn-div a:hover {
+  text-decoration: underline gray;
+}
+
+.instagram-div {
+  margin-top: 40px;
+  line-height: 1.5;
+  width: 750px;
+}
+.instagram-div a {
+  text-decoration: none;
+  font-weight: 500;
+  /* color: blueviolet; */
+}
+.instagram-div p {
+  color: gray;
+}
+.instagram-div a:hover {
+  text-decoration: underline gray;
+}
+.fbref-div {
+  margin-top: 40px;
+  line-height: 1.5;
+  width: 750px;
+}
+.fbref-div a {
+  text-decoration: none;
+  font-weight: 500;
+  /* color: blueviolet; */
+}
+.fbref-div p {
+  color: gray;
+}
+.fbref-div a:hover {
+  text-decoration: underline gray;
+}
+.whoscored-div {
+  margin-top: 40px;
+  line-height: 1.5;
+  width: 750px;
+}
+.whoscored-div a {
+  text-decoration: none;
+  font-weight: 500;
+  /* color: blueviolet; */
+}
+.whoscored-div p {
+  color: gray;
+}
+.whoscored-div a:hover {
+  text-decoration: underline gray;
+}
+.current-team {
+  margin-top: 10px;
+  display: flex;
+  gap: 150px;
+  line-height: 1.7;
+}
+.current-team .span-span {
+  color: blueviolet;
+}
+.current-team a {
+  text-decoration: none;
+  font-weight: 500;
+}
+.current-team p {
+  color: gray;
+}
+.current-team a:hover {
+  text-decoration: underline gray;
+}
+/* related searches */
+.related-searches {
+  margin-top: 50px;
+}
+.related-questions {
+  /* text-align: center; */
+}
+.related-questions h1 {
+  /* font-size: 2.5rem; */
+  /* line-height: 1.5; */
+  /* margin-bottom: 2.5rem; */
+}
+.details-second {
+  color: rgb(89, 85, 85);
+  font-weight: 500;
+  cursor: pointer;
+  /* padding: 0.8em 2.2em 0.8em 1.2em; */
+  width: 600px;
+  line-height: 1.7;
+}
+
+.related-questions hr {
+  height: 1px;
+  width: 50%;
+  background: gray;
+  border: none;
+}
+.summary-div {
+  width: 670px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.messi-house {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.details-second strong {
+  color: black;
+}
+.details-second .sportp {
+  color: black;
+}
+.details-second .searchfor {
+  color: black;
+  margin-top: 10px;
+}
+.details-second a {
+  text-decoration: none;
+}
+.details-second a:hover {
+  text-decoration: underline;
+}
+.dparag {
+  margin-top: 20px;
+}
+.feedback-divv {
+  width: 89%;
+  display: flex;
+  gap: 10px;
+}
+.feedback-divv p {
+  color: gray;
+  margin-top: 6px;
+}
+
+/* previous search section */
+
+.inputsearch-flex {
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+}
+.last-search input {
+  width: 400px;
+  padding: 20px 30px;
+  border-radius: 30px;
+  position: relative;
+  background: silver;
+  border: none;
+}
+.last-search .img {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  gap: 30px;
+  padding: 0px 20px;
+  margin-top: -40px;
+}
+.last-search a {
+  text-decoration: none;
+}
+.last-search a:hover {
+  text-decoration: underline black;
+}
+.last-search p {
+  font-size: 20px;
+  color: black;
+}
+.last-form {
+  margin-bottom: 20px;
+}
+.gooogle-div {
+  text-align: center;
+}
+.goooogle-div {
+  display: flex;
+  gap: 50px;
+  margin-left: 26em;
+  /* align-items: center; */
+}
+.goooogle-ul {
+  display: flex;
+  gap: 20px;
+  /* align-items: center; */
+}
+
+/* footer section */
+.footer-div {
+  background: silver;
+  /* width: 90%; */
+  margin: auto;
+}
+.footer-div hr {
+  /* width: 100%; */
+  background: gray;
+  margin-top: -10px;
+}
+.footer-abj {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 30px;
+}
+.footer-abj a {
+  text-decoration: none;
+}
+.footer-abj a:hover {
+  text-decoration: underline;
+}
+.footer-abj p {
+  border-right: 1px solid black;
+}
+.footer-list ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  padding: 30px;
+}
+.footer-list a {
+  text-decoration: none;
+  color: gray;
+  font-weight: 600px;
+}
+.footer-list a:hover {
+  text-decoration: underline gray;
 }
